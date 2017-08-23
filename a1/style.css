@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Arial", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #FAB350;
+    margin: 0px;
+    padding: 0px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 30%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 70%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+[class*="colnopad-"] {
+    float: left;
+}
+.colnopad-1 {
+    width: 70%;
+}
+.colnopad-2 {
+    width: 30%;
+}
+.content {
+    width: 95%;
+    margin: 0 auto;
+}
+.pagecontent {
+    background-color: #FDE3Aa;
+}
+.featured {
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #1F3A93;
+}
+.testimonials {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 12pt;
+}
+.header {
+    background-color: #33b5e5;
+    color: #ffffff;
+    padding: 0px;
+}
+.footer {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #33b5e5;
+    text-align: center;
+    font-size: 10pt;
+    color: white;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 12px;
+    margin-bottom: 0px;
+    background-color: #33b5e5;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+    cursor: pointer;
+}
+.menubar ul {
+    display: table;
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #1F3A93;
+}
+.menubar li {
+    display: table-cell;
+    width: auto;
+    padding: 8px;
+    margin-bottom: 0px;
+    background-color: #1F3A73;
+    color: #ffffff;
+    text-align: center;
+}
+.menubar li:hover {
+    background-color: #0099cc;
+    cursor: pointer;
+}
+.hero-image {
+    background-image: url("images/teacher.jpeg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.testimonialimg {
+    width: 100%;
+    /* Or whatever */
+
+    margin: auto;
+    /* Magic! */
+
+    border-radius: 50%;
+}
